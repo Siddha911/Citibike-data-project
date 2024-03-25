@@ -8,6 +8,7 @@ Our goal is to analyze usage patterns of the Citibike system in NYC during the s
 - What are the most popular Citi Bike stations?
 - What are the most popular routes by subscriber type? 
 - On which days of the week are the most trips made?
+- What time of day is the most common to make trips?
 ## **Technologies**
 In this project, we will utilize a suite of modern technologies to build a robust and scalable data pipeline. These technologies include:
 - **Data lake** - [Google Cloud Storage (GCS)](https://cloud.google.com/storage): will be used as our cloud storage solution. We will store our raw data and processed data in GCS buckets, allowing us to easily access and analyze the data using other GCP tools.

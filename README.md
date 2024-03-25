@@ -1,6 +1,6 @@
 # NYC Citibike data pipeline
-## **Project introduction** 
 ![Alt text](images/Citibikes-NYC-916126092.webp)
+## **Project introduction** 
 This repository is the final project of the [DEZoomcamp 2024](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main) course. \
 First of all, I would like to thank [DataTalksClub](https://github.com/DataTalksClub) for creating this course and giving the opportunity to take it for free, it's really amazing! \
 In this project, we explore the [NYC Citibike rides dataset](https://s3.amazonaws.com/tripdata/index.html), which contains information about bike rides taken in New York City using the Citibike bike-sharing system. This project is use the dataset covers the second half of 2023 to insights and analyze.
@@ -20,7 +20,7 @@ In this project, we will utilize a suite of modern technologies to build a robus
 - **Data warehouse** - [BigQuery](https://cloud.google.com/bigquery): is a fully-managed, serverless data warehouse that allows us to store and analyze large volumes of data. We will use BigQuery to store our processed data and perform complex SQL queries to generate insights.
 - **Dashboard** - [Looker Studio](https://lookerstudio.google.com/): is a data visualization tool that allows us to create interactive dashboards and reports. We will use Looker Studio to visualize our data and share insights with stakeholders. \
 By leveraging these technologies, we aim to build a robust and scalable data pipeline that can handle large volumes of data and provide valuable insights into the usage patterns of the Citibike system in NYC.
-
+## **Data pipeline**
 
 
 

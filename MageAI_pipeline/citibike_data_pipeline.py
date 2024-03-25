@@ -54,7 +54,7 @@ def load_data_from_api(*args, **kwargs):
 @test
 def test_output(output, *args) -> None:
     """
-    Template code for testing the output of the block.
+    Code for testing the output of the block.
     """
     assert output is not None, 'The output is undefined'
   
@@ -90,7 +90,7 @@ def execute_transformer_action(df: DataFrame, *args, **kwargs) -> DataFrame:
 @test
 def test_output(output, *args) -> None:
     """
-    Template code for testing the output of the block.
+    Code for testing the output of the block.
     """
     assert output is not None, 'The output is undefined'
   
@@ -155,7 +155,7 @@ def load_from_google_cloud_storage(*args, **kwargs):
 @test
 def test_output(output, *args) -> None:
     """
-    Template code for testing the output of the block.
+    Code for testing the output of the block.
     """
     assert output is not None, 'The output is undefined'
 
@@ -174,7 +174,7 @@ if 'data_exporter' not in globals():
 @data_exporter
 def export_data_to_big_query(df: DataFrame, **kwargs) -> None:
     """
-    Exporting data to a BigQuery warehouse.
+    Loading data to a BigQuery warehouse.
     """
     table_id = 'dezoomcamp-409909.citibike_data.bike_rides_data'
     config_path = path.join(get_repo_path(), 'io_config.yaml')

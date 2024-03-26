@@ -21,6 +21,7 @@ In this project, we will utilize a suite of modern technologies to build a robus
 - **Dashboard** - [Looker Studio](https://lookerstudio.google.com/): is a data visualization tool that allows us to create interactive dashboards and reports. We will use Looker Studio to visualize our data and share insights with stakeholders. \
 By leveraging these technologies, we aim to build a robust and scalable data pipeline that can handle large volumes of data and provide valuable insights into the usage patterns of the Citibike system in NYC.
 ## **Data pipeline**
+![Alt text](images/pipeline.png)
 The pipeline consists of the following main components:
 - Using the MageAI orchestrator, we implement an ETL pipeline where we load data from the API, remove duplicates, and extract the data into the GCS bucket. Then pipeline load the data from the GCS and extract it into BigQuery data warehouse.
 - Then using dbt we perform data transformation tasks such as, data type conversion, adding column with the ride duration and column which defining the part of the day when the ride taken. We also merge Citibike rides data with data from a file containing information about Citibike stations and add numeric station id from this file. The distinctive features of dbt - macros and seeds - were used in data processing.

@@ -23,6 +23,7 @@ By leveraging these technologies, we aim to build a robust and scalable data pip
 ## **Data pipeline**
 The pipeline consists of the following main components:
 - Using the MageAI orchestrator, we implement an ETL pipeline where we load data from the API, remove duplicates, and extract the data into the GCS bucket. Then pipeline load the data from the GCS and extract it into BigQuery data warehouse.
+![Alt text](images/mage.png)
 
 
 

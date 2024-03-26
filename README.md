@@ -28,6 +28,7 @@ The pipeline consists of the following main components:
 ## **Dashboard**
 Below is a [dashboard](https://lookerstudio.google.com/s/hVFgIfuZ_GM) that provides answers to the questions posed. 
 ![Alt text](images/citibike_dashoard.png)
+## **Reproducing**
 
 
 

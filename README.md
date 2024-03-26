@@ -6,8 +6,7 @@ First of all, I would like to thank [DataTalksClub](https://github.com/DataTalks
 In this project, we explore the [NYC Citibike rides dataset](https://s3.amazonaws.com/tripdata/index.html), which contains information about bike rides taken in New York City using the Citibike bike-sharing system. This project is use the dataset covers the second half of 2023 to insights and analyze.
 ## **Problem statement**
 Our goal is to analyze usage patterns of the Citibike system in NYC during the second half of 2023, and identify trends that could inform future transportation planning. Specifically, we aim to answer the following questions: 
-- What are the most popular Citi Bike stations?
-- What are the most popular routes by subscriber type? 
+- What are the most popular Citibike stations?
 - On which days of the week are the most trips made?
 - What part of the day is the most common to make trips?
 ## **Technologies**
@@ -26,6 +25,9 @@ The pipeline consists of the following main components:
 - Using the MageAI orchestrator, we implement an ETL pipeline where we load data from the API, remove duplicates, and extract the data into the GCS bucket. Then pipeline load the data from the GCS and extract it into BigQuery data warehouse.
 - Then using dbt we perform data transformation tasks such as, data type conversion, adding column with the ride duration and column which defining the part of the day when the ride taken. We also merge Citibike rides data with data from a file containing information about Citibike stations and add numeric station id from this file. The distinctive features of dbt - macros and seeds - were used in data processing.
 - The transformed data is partitioned and clustered in BigQuery to optimize query performance. The data is partitioned by date and clustered by station ID.
+## **Dashboard**
+Below is a [dashboard](https://lookerstudio.google.com/s/hVFgIfuZ_GM) that provides answers to the questions posed. 
+![Alt text](images/nyc_citibike_dashboard.png)
 
 
 

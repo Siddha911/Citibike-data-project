@@ -22,7 +22,7 @@ In this project, we will utilize a suite of modern technologies to build a robus
 By leveraging these technologies, we aim to build a robust and scalable data pipeline that can handle large volumes of data and provide valuable insights into the usage patterns of the Citibike system in NYC.
 ## **Data pipeline**
 The pipeline consists of the following main components:
-- Using the MageAI orchestrator, we implement an ETL pipeline where we extract data from the API, remove duplicates, and load the data into the GCS bucket
-- 
+- Using the MageAI orchestrator, we implement an ETL pipeline where we load data from the API, remove duplicates, and extract the data into the GCS bucket. Then pipeline load the data from the GCS and extract it into BigQuery data warehouse.
+![Alt text](images/mage_pipeline.png)
 
 

@@ -29,6 +29,8 @@ The pipeline consists of the following main components:
 Below is a [dashboard](https://lookerstudio.google.com/s/hVFgIfuZ_GM) that provides answers to the questions posed. 
 ![Alt text](images/citibike_dashoard.png)
 ## **Reproducing**
-
+To reproduce the project, you will need to follow the steps below. Note that you will need to have certain tools and credentials to complete the setup. \
+  1. If you need to set up a virtual machine, account, project or service account in Google Cloud Platform, please refer to the [detailed instructions](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/01-docker-terraform/1_terraform_gcp) from the DataTalksClub team. Also, these great guys have a [guide](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/01-docker-terraform/1_terraform_gcp/terraform) for perform the execution steps to create your Terraform infrastructure.
+  2. 
 
 

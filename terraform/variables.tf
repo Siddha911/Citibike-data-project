@@ -1,6 +1,6 @@
 variable "credentials" {
   description = "My Credentials"
-  default     = "~/.gc/dezoomcamp-409909-2f4102316890.json"
+  default     = "<Path to your Service Account json file>"
   #ex: if you have a directory where this file is called keys with your service account json file
   #saved there as my-creds.json you could use default = "./keys/my-creds.json"
 }
@@ -8,7 +8,7 @@ variable "credentials" {
 
 variable "project" {
   description = "Project"
-  default     = "dezoomcamp-409909"
+  default     = "<Your Project ID>"
 }
 
 variable "region" {
@@ -32,7 +32,7 @@ variable "bq_dataset_name" {
 variable "gcs_bucket_name" {
   description = "My Storage Bucket Name"
   #Update the below to a unique bucket name
-  default     = "409909-bucket"
+  default     = "terraform-demo-terra-bucket"
 }
 
 variable "gcs_storage_class" {

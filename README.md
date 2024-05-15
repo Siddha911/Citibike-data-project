@@ -39,6 +39,6 @@ To reproduce the project, you will need to follow the steps below. Note that you
      ```
      mv pipeline/citibike_data_pipeline mageai/magic-zoomcamp/pipelines
   5. Using VS Code and having established a remote SSH connection to your VM through it and forwarded port 6789, you can now go to [http://localhost:6789](http://localhost:6789) to access the MageAI server instance and run `citibike_data_pipeline`.
-  6. Now you can install dbt cloud once again using a great [guide](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/04-analytics-engineering/dbt_cloud_setup.md) from the incredible DataTalksClub 😊 to apply transformations and analysis using the files in the folders `dbt\models` and `dbt\macros`.
+  6. Now you can install dbt cloud once again using a great [guide](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/04-analytics-engineering/dbt_cloud_setup.md) from the incredible DataTalksClub 😊 to apply transformations and analysis using the files in the folders `dbt/models` and `dbt/macros`.
 ## **Acknowledgements**
 I would like to thank [DataTalksClub](https://github.com/DataTalksClub) for creating this course and giving the opportunity to take it for free, it's really amazing!

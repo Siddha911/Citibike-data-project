@@ -1,5 +1,5 @@
 {#
-    This macro returns duration time ofthe ride 
+    This macro returns duration time of the ride 
 #}
 
 {% macro get_ride_duration(started, ended) -%}
